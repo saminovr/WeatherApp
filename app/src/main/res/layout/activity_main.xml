@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logo_text"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="40sp"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/user_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="150sp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/hint_user_field"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/light_Gray" />
+
+    <Button
+        android:id="@+id/main_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/user_field"
+        android:layout_marginHorizontal="80sp"
+        android:layout_marginTop="70sp"
+        android:backgroundTint="@color/yellow"
+
+        android:text="@string/btn_text" />
+
+    <TextView
+        android:id="@+id/preResult_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_btn"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="40sp"
+        android:textAlignment="center"
+        android:textColor="@color/light_Gray"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/result_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/preResult_info"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="-20sp"
+        android:lineSpacingExtra="10sp"
+        android:textAlignment="textStart"
+        android:textColor="@color/light_Gray"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

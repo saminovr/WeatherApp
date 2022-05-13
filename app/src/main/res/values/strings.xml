@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WeatheR</string>
+    <string name="logo_text">Погода в твоем городе!</string>
+    <string name="hint_user_field">Введите название города</string>
+    <string name="btn_text">Узнать погоду</string>
+    <string name="error_text">Введите название города</string>
+    <string name="parse_error_text">Введен несуществующий город</string>
+    <string name="connection_error_text">Отсутствует подключение к интернету</string>
+</resources>
